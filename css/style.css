@@ -1,7 +1,17 @@
 body {
-	padding-top: 20px;
+	padding-top: 10px;
     padding-bottom: 20px;
 }
+
+
+/* NAVBAR
+-------------------------------------------------- */
+
+.navbar-wrapper {
+	position: relative;
+	z-index: 15;
+}
+
 .navbar-prismann {
 	height: 122px;
 	background: url(/img/nav-background.gif) repeat-x;
@@ -9,4 +19,37 @@ body {
 .navbar-logo {
 	margin-left: -15px;
 	text-align: left;
+}
+
+/* CAROUSEL
+-------------------------------------------------- */
+
+.carousel {
+ 	 margin: 0px -15px 60px -15px;	  
+}
+.carousel-caption {
+ 	 z-index: 10;
+}
+.carousel-style-1 > h1{
+	color: #FFF;
+	background-color: #CD2B3A;
+    opacity: 0.8;
+
+}
+.carousel-style-2 > h1{
+	color: #FFF;
+	background-color: #015B8F;
+    opacity: 0.8;
+
+}
+.carousel .item {
+	  height: 500px;
+	  background-color: #777;
+}
+.carousel-inner > .item > img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  min-width: 100%;
+	  height: 500px;
 }

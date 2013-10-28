@@ -12,9 +12,10 @@
 
 </head>
 <body>
+	<div class="navbar-wrapper">
+	<!-- NAVBAR - Inicio --> 
 	<div class="container">
-		
-		<!-- NAVBAR - Inicio --> 
+				
 		<div class="row navbar-prismann" style="background: url(img/nav-background.gif) repeat-x">
 		  
 		  <!-- LOGO - Inicio --> 
@@ -39,7 +40,7 @@
 		                    <li><a href="#">Another action</a></li>
 		                    <li><a href="#">Something else here</a></li>
 		                    <li class="divider"></li>
-		                    <li class="dropdown-header">Nav header</li>
+		                    <li class="dropdown-header">Nova Seção</li>
 		                    <li><a href="#">Separated link</a></li>
 		                    <li><a href="#">One more separated link</a></li>
 		                  </ul>
@@ -51,42 +52,65 @@
 		  </div>
 		  <!-- NAVEGACAO - FIM --> 
 		  
-		</div>
-	    <!-- NAVBAR - Fim --> 
-	    
+		</div>	    
     </div>
-   
+    <!-- NAVBAR - Fim --> 
+	</div>
+
    	<!-- CAROUSEL - Inicio -->
-   	<div id="carousel-prismann-generic" class="carousel slide">
-   		
-	  <!-- Indicators -->
-	  <ol class="carousel-indicators">
-	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-	  </ol>
-	
-	  <!-- Wrapper for slides -->
-	  <div class="carousel-inner">
-	    <div class="item active">
-	      <img src="img/estrada.png" alt="Teste">
-	      <div class="carousel-caption">
-	        ...
+	<div class="container">
+	    <div id="carousel-prismann" class="carousel slide">
+	    	
+	      <!-- Indicators -->
+	      <ol class="carousel-indicators">
+	        <li data-target="#carousel-prismann" data-slide-to="0" class="active"></li>
+	        <li data-target="#carousel-prismann" data-slide-to="1"></li>
+	        <li data-target="#carousel-prismann" data-slide-to="2"></li>
+	      </ol>
+		  
+		  <!-- Wrapper for slides -->
+	      <div class="carousel-inner">
+	        <div class="item active">
+	          <img src="img/estrada.png" alt="First slide">
+	          <div class="container">
+	            <div class="carousel-caption carousel-style-1">
+	              <h1>Example headline.</h1>
+	              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+	              <p><a class="btn btn-large btn-primary" href="#">Sign up today</a></p>
+	            </div>
+	          </div>
+	        </div>
+	        <div class="item">
+	          <img src="img/porto.png" alt="Second slide">
+	          <div class="container">
+	            <div class="carousel-caption carousel-style-2">
+	            	<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+	            	<h1>Another example headline.</h1>
+	            </div>
+	          </div>
+	        </div>
+	        <div class="item">
+	          <img src="img/amazon.png" alt="Third slide">
+	          <div class="container">
+	            <div class="carousel-caption">
+	              <h1>One more for good measure.</h1>
+	              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+	            </div>
+	          </div>
+	        </div>
 	      </div>
+	      
+	      <!-- Controls -->
+	      <a class="left carousel-control" href="#carousel-prismann" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+	      <a class="right carousel-control" href="#carousel-prismann" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	      
 	    </div>
-	    ...
-	  </div>
 	
-	  <!-- Controls -->
-	  <a class="left carousel-control" href="#carousel-prismann-generic" data-slide="prev">
-	    <span class="icon-prev"></span>
-	  </a>
-	  <a class="right carousel-control" href="#carousel-prismann-generic" data-slide="next">
-	    <span class="icon-next"></span>
-	  </a>
 	</div>
 	<!-- CAROUSEL - Fim -->
-         
+    
+    
+       
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/holder.js"></script>
