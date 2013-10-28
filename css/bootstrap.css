@@ -4251,6 +4251,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   z-index: 1000;
   min-height: 50px;
+  margin-top: 48px;
   margin-bottom: 21px;
   border: 1px solid transparent;
 }
@@ -4472,7 +4473,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-static-top {
-  border-width: 0 0 1px;
+  border-width: 0 0 0;
 }
 
 @media (min-width: 768px) {

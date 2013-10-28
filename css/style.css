@@ -1,0 +1,12 @@
+body {
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-prismann {
+	height: 122px;
+	background: url(/img/nav-background.gif) repeat-x;
+}
+.navbar-logo {
+	margin-left: -15px;
+	text-align: left;
+}
