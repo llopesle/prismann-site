@@ -326,7 +326,7 @@ textarea {
 }
 
 a {
-  color: #007fff;
+  color: #005C8F;
   text-decoration: none;
 }
 
@@ -421,7 +421,7 @@ cite {
 }
 
 .text-primary {
-  color: #007fff;
+  color: #005C8F;
 }
 
 .text-warning {
@@ -2196,8 +2196,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #007fff;
-  border-color: #007fff;
+  background-color: #005C8F;
+  border-color: #005C8F;
 }
 
 .btn-primary:hover,
@@ -2231,8 +2231,8 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #007fff;
-  border-color: #007fff;
+  background-color: #005C8F;
+  border-color: #005C8F;
 }
 
 .btn-warning {
@@ -2401,7 +2401,7 @@ fieldset[disabled] .btn-info.active {
 
 .btn-link {
   font-weight: normal;
-  color: #007fff;
+  color: #005C8F;
   cursor: pointer;
   border-radius: 0;
 }
@@ -3384,7 +3384,7 @@ input[type="button"].btn-block {
 .dropdown-menu > li > a:focus {
   color: #ffffff;
   text-decoration: none;
-  background-color: #007fff;
+  background-color: #005C8F;
 }
 
 .dropdown-menu > .active > a,
@@ -3392,7 +3392,7 @@ input[type="button"].btn-block {
 .dropdown-menu > .active > a:focus {
   color: #ffffff;
   text-decoration: none;
-  background-color: #007fff;
+  background-color: #005C8F;
   outline: 0;
 }
 
@@ -4038,7 +4038,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #e6e6e6;
-  border-color: #007fff;
+  border-color: #005C8F;
 }
 
 .nav .nav-divider {
@@ -4127,7 +4127,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #007fff;
+  background-color: #005C8F;
 }
 
 .nav-stacked > li {
@@ -4232,8 +4232,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .nav .caret {
-  border-top-color: #007fff;
-  border-bottom-color: #007fff;
+  border-top-color: #005C8F;
+  border-bottom-color: #005C8F;
 }
 
 .nav a:hover .caret {
@@ -4816,7 +4816,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #007fff;
+  background-color: #005C8F;
   border-color: #0066cc;
 }
 
@@ -5187,7 +5187,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .label-primary {
-  background-color: #007fff;
+  background-color: #005C8F;
 }
 
 .label-primary[href]:hover,
@@ -5264,7 +5264,7 @@ a.badge:focus {
 
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #007fff;
+  color: #005C8F;
   background-color: #ffffff;
 }
 
@@ -5331,7 +5331,7 @@ a.list-group-item.active > .badge,
 
 a.thumbnail:hover,
 a.thumbnail:focus {
-  border-color: #007fff;
+  border-color: #005C8F;
 }
 
 .thumbnail > img {
@@ -5489,7 +5489,7 @@ a.thumbnail:focus {
   font-size: 13px;
   color: #ffffff;
   text-align: center;
-  background-color: #007fff;
+  background-color: #005C8F;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
           box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -5644,8 +5644,8 @@ a.list-group-item:focus {
 .list-group-item.active:focus {
   z-index: 2;
   color: #ffffff;
-  background-color: #007fff;
-  border-color: #007fff;
+  background-color: #005C8F;
+  border-color: #005C8F;
 }
 
 .list-group-item.active .list-group-item-heading,
@@ -5832,21 +5832,21 @@ a.list-group-item:focus {
 }
 
 .panel-primary {
-  border-color: #007fff;
+  border-color: #005C8F;
 }
 
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #007fff;
-  border-color: #007fff;
+  background-color: #005C8F;
+  border-color: #005C8F;
 }
 
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #007fff;
+  border-top-color: #005C8F;
 }
 
 .panel-primary > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #007fff;
+  border-bottom-color: #005C8F;
 }
 
 .panel-success {
@@ -7235,7 +7235,7 @@ td.visible-print {
 }
 
 .text-primary {
-  color: #007fff;
+  color: #005C8F;
 }
 
 .text-success {

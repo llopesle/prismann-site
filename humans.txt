@@ -4,7 +4,7 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
-
+	Lucas Lopes Lemos -- Main Developer -- @llopesle
 # THANKS
 
     <name>
@@ -13,3 +13,4 @@
 
     HTML5, CSS3
     jQuery, Modernizr
+    PHP5, Joomla 2.5
