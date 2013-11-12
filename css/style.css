@@ -1,0 +1,30 @@
+body {
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-prismann {
+	height: 122px;
+	z-index: 15;
+	position: relative;
+}
+.navbar-logo {
+	margin-left: -15px;
+	text-align: left;
+}
+.navbar-menu {
+	margin: 48px 0 0 35px;
+	 
+}
+.navbar-search {
+	margin: 51px 0 0 0px;
+	 
+}
+
+.carousel-wapper {
+	position: absolute; 
+	width: 100%; 
+	margin: -21px 10px 0 -15px; 
+	z-index: 10;
+}
+
+
