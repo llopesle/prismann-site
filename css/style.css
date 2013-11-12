@@ -4,9 +4,27 @@ body {
 }
 .navbar-prismann {
 	height: 122px;
-	background: url(/img/nav-background.gif) repeat-x;
+	z-index: 15;
+	position: relative;
 }
 .navbar-logo {
 	margin-left: -15px;
 	text-align: left;
 }
+.navbar-menu {
+	margin: 48px 0 0 35px;
+	 
+}
+.navbar-search {
+	margin: 51px 0 0 0px;
+	 
+}
+
+.carousel-wapper {
+	position: absolute; 
+	width: 100%; 
+	margin: -21px 10px 0 -15px; 
+	z-index: 10;
+}
+
+
