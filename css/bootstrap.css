@@ -4251,7 +4251,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   z-index: 1000;
   min-height: 50px;
-  margin-top: 48px;
   margin-bottom: 21px;
   border: 1px solid transparent;
 }
