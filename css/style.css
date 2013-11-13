@@ -3,32 +3,49 @@ body {
     padding-bottom: 20px;
 }
 
-
 /* NAVBAR
 -------------------------------------------------- */
 
-.navbar-wrapper {
-	position: relative;
-	z-index: 15;
-}
-
 .navbar-prismann {
 	height: 122px;
-	background: url(/img/nav-background.gif) repeat-x;
+	z-index: 15;
+	background: url(../img/nav-background.png);
+	position: relative;
 }
-.navbar-logo {
+
+.navbar-logo{
 	margin-left: -15px;
 	text-align: left;
+}
+
+.navbar-menu {
+	margin: 48px 0 0 35px;
+	 
+}
+.navbar-search {
+	margin: 52px 0 0 0px;
+	 
 }
 
 /* CAROUSEL
 -------------------------------------------------- */
 
 .carousel {
- 	 margin: 2px -15px 60px -15px;	  
+ 	 margin: 5px -15px 60px -15px;	  
 }
 .carousel-caption {
  	 z-index: 10;
+}
+.carousel .item {
+	  height: 500px;
+	  background-color: #777;
+}
+.carousel-inner > .item > img {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  min-width: 100%;
+	  height: 500px;
 }
 .carousel-style-1 > h1{
 	color: #FFF;
@@ -41,15 +58,4 @@ body {
 	background-color: #015B8F;
     opacity: 0.8;
 
-}
-.carousel .item {
-	  height: 500px;
-	  background-color: #777;
-}
-.carousel-inner > .item > img {
-	  position: absolute;
-	  top: 0;
-	  left: 0;
-	  min-width: 100%;
-	  height: 500px;
 }
